@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.navbar a{
+    color:blueviolet;
+    text-decoration: none;
+    border: 1px solid blueviolet;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.navbar a:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: 0.3s ease;
+}

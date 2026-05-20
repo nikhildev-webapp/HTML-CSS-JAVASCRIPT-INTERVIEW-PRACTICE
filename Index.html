@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Introduction To Html</title>
+    <link rel="stylesheet" href="app.css">
   </head>
 
   <body>
-    <h1>Introduction To html</h1>
-    <p>Learning Html, Css, Javascript from scratch</p>
-    <p>My Approach of learning is First learn tags and later do tasks.</p>
-    <p>Learn By Doing build projects</p>
+    <h1 class="heading">Introduction To html</h1>
+    <div class="fontStyle">
+    <p class="fontFamily">Learning Html, Css, Javascript from scratch</p>
+    <p class="fontFamily">My Approach of learning is First learn tags and later do tasks.</p>
+    <p class="fontFamily">Learn By Doing build projects</p>
+    </div>
     <!-- Headings in Htmls -->
     <p>There are 6 different type of heading in Html</p>
     <h1>This is heading 1</h1>
@@ -64,8 +67,16 @@
       </tr>
      </table><br>
      <!-- inputs and buttons -->
+      <form action="">
       <input type="text" placeholder="Text input-please enter your name" width="100"><br>
       <input type="number" placeholder="Number input-please enter your age"><br>
       <button>Submit</button>
+      </form>
+      <!-- Layout using Flexbox -->
+       <div class="container">
+        <div class="box-1">Box 1</div>
+        <div class="box-2">Box 2</div>
+        <div class="box-3">Box 3</div>
+       </div>
   </body>
 </html>
