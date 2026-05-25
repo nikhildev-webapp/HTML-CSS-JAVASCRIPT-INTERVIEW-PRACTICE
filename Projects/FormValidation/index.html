@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="form">
+        <h2>Sign Up</h2>
+        </h4>
+        <form class="form-container">
+            <div class="input-box">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" >
+            </div>
+            <div class="input-box">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" >
+                
+            </div>
+            <div class="input-box">
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter your password" >  
+                
+            </div>
+            <p id="err-msg"></p>
+        
+            <button  onclick="validateForm(event)">Sign Up</button>   
+        </form>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
