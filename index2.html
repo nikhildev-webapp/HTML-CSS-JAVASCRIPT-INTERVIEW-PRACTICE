@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction To Html</title>
+</head>
+
+<body>
+    <h1>Introduction To Html</h1>
+    <p>HTML stands for Hyper text markup language.</p>
+    <p>It is the standard markup language for creating web pages.</p>
+    <hr>
+    <h2>What is HTML?</h2>
+    <p>HTML (HyperText Markup Language) is the standard markup language for creating web pages.</p>
+    <!-- This is a comment -->
+    <hr>
+    <h2>HTML Elements</h2>
+    <p>HTML elements are the building blocks of HTML pages. They are represented by tags such as
+        <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>, and <code>&lt;div&gt;</code>.</p>
+    <hr>
+    bold text: <b>This text is bold</b><br>
+    italic text: <i>This text is italic</i><br>
+    underlined text: <u>This text is underlined</u><br>
+    <hr>
+    <h3>Anchor(Link) Tags</h3>
+    <a href="https://www.google.com" target="_blank">google</a>
+    <hr>
+    <h4>Images in Html</h4>
+    <img src="./imgs/Goku.jpg" alt="Goku Image" width="200" height="200">
+    <hr>
+    <h3>Navigation Bar</h3>
+    <nav>
+        <a href="./Index.html" target="_blank">Home</a>
+        <a href="./Tasks/DigitalBusinessCard.html" target="_blank">Card</a>
+        <a href="./Tasks/RecipeCard.html" target="_blank">Recipe</a>
+    </nav>
+    <hr>
+    <h3>Nested List</h3>
+    <ul>
+        <li>Fruits
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Orange</li>
+            </ul>
+        </li>
+        <li>Vegetables
+            <ul>
+                <li>Carrot</li>
+                <li>Broccoli</li>
+                <li>Spinach</li>
+            </ul>
+        </li>
+        <hr>
+        <h3>Tables</h3>
+        <table rowspan="2" colspan="2" border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Nikhil</td>
+                <td>21</td>
+                <td>nikhil@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Vipul</td>
+                <td>21</td>
+                <td>vipul@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jhon</td>
+                <td>21</td>
+                <td>jhon@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Cena</td>
+                <td>21</td>
+                <td>cena@gmail.com</td>
+            </tr>
+        </table>
+        <hr>
+        <h3>Audios and Videos</h3>
+        <h4>Naruto Audio</h4>
+        <audio src="./Audios/naruto_llamada.mp3" controls></audio>
+        <h4>Goku Video</h4>
+        <video src="./videos/WhatsApp Video 2022-12-04 at 14.27.50.mp4" controls width="200" loop></video>
+        <hr>
+        <h3>Form</h3>
+        <form >
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter your Name">
+            <br>
+            <label for="age">Age</label>
+            <input type="number" placeholder="Enter your Age">
+            <br>
+            <label for="gender">Gender:</label>
+            male:
+            <input type="radio" name="gender" id="Male" Value="Male">
+            female:<input type="radio" name="gender" id="Female" Value="Female">
+        </form>
+        <hr>
+        <h3>DropDown</h3>
+        <nav>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <select name="services" id="services">
+                    <option value="services">--Service---</option>
+                    <option value="web-design">Web Design</option>
+                    <option value="Software-development">Software Development</option>
+                    <option value="Graphic-design">Graphic Design</option>
+            </select>
+           
+        </nav>
+</body>
+
+</html>
