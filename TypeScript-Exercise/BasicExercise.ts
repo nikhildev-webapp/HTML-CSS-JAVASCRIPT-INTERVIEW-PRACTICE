@@ -1,1 +1,1 @@
-console.log(`TypeScript Basic Exercise`);
+console.log(`TypeScript Basic Exercises and Tasks`);
