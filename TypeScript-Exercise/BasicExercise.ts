@@ -1,5 +1,3 @@
-export{}
-
 console.log(`TypeScript Basic Exercises and Tasks`);
 //Exercise topic coverd-varibale,conditional statment, loops, funtions, array and many more
 console.log('1-Variable Exercise');
@@ -19,11 +17,11 @@ console.log(`The square of ${singleNum} is: ${squareNum}`);
 console.log(`The cube of ${singleNum} is: ${cubeNum}`);
 
 console.log('Exercise 3-create a salary calculator program');
-let basicSalary: number =10000 ;
-let hra: number = 0.2 * basicSalary;
-let da: number = 0.1 * basicSalary;
-let totalSalary: number = basicSalary + hra + da;
-console.log(`Basic Salary: ${basicSalary}`);
-console.log(`HRA: ${hra}`);
-console.log(`DA: ${da}`);
-console.log(`Total Salary: ${totalSalary}`);
+let BasicSalary: number =10000 ;
+let Hra: number = 0.2 * BasicSalary;
+let Da :number = 0.1 * BasicSalary;
+let TotalSalary: number = BasicSalary + Hra + Da;
+console.log(`Basic Salary: ${BasicSalary}`);
+console.log(`HRA: ${Hra}`);
+console.log(`DA: ${Da}`);
+console.log(`Total Salary: ${TotalSalary}`);
