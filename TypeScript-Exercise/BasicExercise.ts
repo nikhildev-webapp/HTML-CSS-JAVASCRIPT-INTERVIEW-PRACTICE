@@ -1,4 +1,5 @@
-export {};
+export{}
+
 console.log(`TypeScript Basic Exercises and Tasks`);
 //Exercise topic coverd-varibale,conditional statment, loops, funtions, array and many more
 console.log('1-Variable Exercise');
