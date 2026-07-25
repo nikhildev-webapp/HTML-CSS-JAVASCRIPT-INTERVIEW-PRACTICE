@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Background Color</title>
+    <style>
+        * {
+            margin: 10px 20px;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3>Generate Random Background Color</h3>
+        <p>Click the button to change the background color randomly.</p>
+        <!-- Added #ffffff here so it shows on initial page load -->
+        <p>Current Color Code: <span id="colorCode">#ffffff</span></p>
+        <button onclick="changeBackgroundColor()">Change Background Color</button>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
