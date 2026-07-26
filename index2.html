@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduction To Html</title>
+    <link rel="stylesheet" href="Intro2.css">
 </head>
-
-<body>
+<body id="body">
+    <h3>Adding the Css To practice Css styling</h3>
+    <hr>
     <h1>Introduction To Html</h1>
-    <p>HTML stands for Hyper text markup language.</p>
-    <p>It is the standard markup language for creating web pages.</p>
+    <p id="para1">HTML stands for Hyper text markup language.</p>
+    <p id="para2">It is the standard markup language for creating web pages.</p>
     <hr>
     <h2>What is HTML?</h2>
     <p>HTML (HyperText Markup Language) is the standard markup language for creating web pages.</p>
@@ -25,10 +27,10 @@
     underlined text: <u>This text is underlined</u><br>
     <hr>
     <h3>Anchor(Link) Tags</h3>
-    <a href="https://www.google.com" target="_blank">google</a>
+    <a href="https://www.google.com" id="anchorTag" target="_blank">google</a>
     <hr>
     <h4>Images in Html</h4>
-    <img src="./imgs/Goku.jpg" alt="Goku Image" width="200" height="200">
+    <img src="./imgs/Goku.jpg" alt="Goku Image" width="200" height="200" id="gokuImage">
     <hr>
     <h3>Navigation Bar</h3>
     <nav>
@@ -55,7 +57,7 @@
         </li>
         <hr>
         <h3>Tables</h3>
-        <table rowspan="2" colspan="2" border="1" cellpadding="10" cellspacing="0">
+        <table rowspan="2" colspan="2" border="1" cellpadding="10" cellspacing="0" class="table">
             <tr>
                 <th>Name</th>
                 <th>Age</th>

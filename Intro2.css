@@ -1,0 +1,75 @@
+/* 
+    Css Syntax
+    1-Choose the element
+    2-Choose the property
+    3-Choose the value
+    4-For Example
+    h3{
+       text-align:center;
+       font-size:20px;
+       text-decoration:underline;
+    }
+*/
+
+/* change the  color,text-decoration,font-size,and other basc styling */
+#para1{
+    color:red;
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+#para1:hover{
+    border:2px solid #333;
+    border-radius:5px;
+    transition:0.5s ease;
+    width:fit-content;
+    padding:10px;
+}
+
+#para2{
+    background-color:#fff;
+    color:#333;  
+}
+
+#para2:hover{
+  
+border-radius:5px;
+    width:fit-content;
+    background-color:#333;
+    color:#fff;
+    padding:5px;
+    transition:0.5s ease;
+}
+
+h1{
+    text-align:center;
+    font-size:30px;
+    font-style:italic
+}
+
+h1:hover{
+    color:#333;
+    text-decoration:underline;
+    transition:0.5s ease;
+    cursor:pointer;
+}
+
+#anchorTag{
+    text-decoration:none;
+    background-color:#333;
+    color:#fff;
+    width:100px;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+}
+
+
+/*
+--Basic Background styling--
+#body{
+    background-image:url('./imgs/Goku.jpg');
+   
+    background-repeat:repeat;
+    background-position:center;
+} */
